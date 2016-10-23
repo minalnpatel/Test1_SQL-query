@@ -1,1 +1,1 @@
-SELECT cc.display_name,cc.organization_name FROM civicrm_contact cc, civicrm_contact_type cct,civicrm_case_contact ccc where cc.id = cct.id
+SELECT cc.display_name,cc.organization_name FROM civicrm_contact cc, civicrm_contact_type cct where cc.id = cct.id
